@@ -1,2 +1,2 @@
 #!/bin/bash
-pr -COLUMN /etc/passwd /etc/hosts
+cat /etc/passwd /etc/hosts
