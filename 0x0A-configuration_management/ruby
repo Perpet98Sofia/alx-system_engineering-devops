@@ -1,3 +1,0 @@
-# Suppress warnings for URI.escape
-require 'warning'
-Warning.ignore(/URI.escape/)
