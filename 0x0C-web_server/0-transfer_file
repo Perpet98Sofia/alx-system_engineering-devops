@@ -13,3 +13,9 @@ else
   fi;
 fi;
 
+if [ $? -eq 0 ]
+then
+	echo "FILE WAS TRANSFERRED SUCCESSFULLY"
+else
+	echo "FILE TRANSFER FAILED"
+fi;
